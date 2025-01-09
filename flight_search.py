@@ -1,6 +1,7 @@
 import os
 import json
 import requests
+import smtplib
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -165,10 +166,26 @@ class FlightSearch:
 
     def _send_flight_data(self, cheap_flights_found):
         if len(cheap_flights_found) > 0:
-            for city, flight in cheap_flights_found.items():
-                print(f"Found flight to {city} for ${flight['price']['total']} departing on {flight['itineraries'][0]['segments'][0]['departure']['at']}")
-                
-                # TODO: send email or sms with flight data
-        else:
-            print("No cheap flights found")
+            try:
+                email_body = '';
+                email_subject = f"Cheap Flight{'s' if len(cheap_flights_found) > 1 else ''} Found!"
+
+                for city, flight in cheap_flights_found.items():
+                    email_body += f"Found flight to {city} for ${flight['price']['total']} departing on {flight['itineraries'][0]['segments'][0]['departure']['at']}\n"
+                    
+                smtp_email = os.getenv('SMTP_EMAIL')
+                smtp_token = os.getenv('SMTP_TOKEN')
+                smtp_host = os.getenv('SMTP_HOST')
+                smtp_port = os.getenv('SMTP_PORT')
+
+                with smtplib.SMTP(smtp_host, smtp_port) as connection:
+                    connection.starttls() # IMPORTANT: secures the connection with tls
+                    connection.login(user=smtp_email, password=smtp_token)
+                    connection.sendmail(
+                        from_addr=smtp_email,
+                        to_addrs=smtp_email,
+                        msg=f"Subject:{email_subject}\n\n{email_body}"
+                    )
+            except Exception as e:
+                print(f"Error sending flight data: {e}")
 

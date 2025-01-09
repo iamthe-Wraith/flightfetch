@@ -25,8 +25,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2025-01-09",
-            "lastTicketingDateTime": "2025-01-09",
+            "lastTicketingDate": "2025-01-10",
+            "lastTicketingDateTime": "2025-01-10",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -485,82 +485,73 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2025-01-09",
-            "lastTicketingDateTime": "2025-01-09",
-            "numberOfBookableSeats": 6,
+            "lastTicketingDate": "2025-01-11",
+            "lastTicketingDateTime": "2025-01-11",
+            "numberOfBookableSeats": 9,
             "itineraries": [
                 {
-                    "duration": "PT20H38M",
+                    "duration": "PT35H",
                     "segments": [
                         {
                             "departure": {
                                 "iataCode": "RDU",
                                 "terminal": "2",
-                                "at": "2025-02-01T11:27:00"
+                                "at": "2025-02-01T16:35:00"
                             },
                             "arrival": {
-                                "iataCode": "JFK",
-                                "terminal": "5",
-                                "at": "2025-02-01T13:02:00"
+                                "iataCode": "YYZ",
+                                "terminal": "1",
+                                "at": "2025-02-01T18:30:00"
                             },
-                            "carrierCode": "B6",
-                            "number": "2786",
+                            "carrierCode": "AC",
+                            "number": "8839",
                             "aircraft": {
-                                "code": "223"
+                                "code": "CR9"
                             },
-                            "operating": {
-                                "carrierCode": "B6"
-                            },
-                            "duration": "PT1H35M",
-                            "id": "25",
+                            "duration": "PT1H55M",
+                            "id": "1",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
                         {
                             "departure": {
-                                "iataCode": "JFK",
-                                "terminal": "1",
-                                "at": "2025-02-01T22:00:00"
+                                "iataCode": "YTZ",
+                                "at": "2025-02-02T07:25:00"
                             },
                             "arrival": {
-                                "iataCode": "LIS",
-                                "terminal": "1",
-                                "at": "2025-02-02T09:55:00"
+                                "iataCode": "YUL",
+                                "at": "2025-02-02T08:40:00"
                             },
-                            "carrierCode": "TP",
-                            "number": "210",
+                            "carrierCode": "AC",
+                            "number": "7952",
                             "aircraft": {
-                                "code": "32Q"
+                                "code": "DH4"
                             },
-                            "operating": {
-                                "carrierCode": "TP"
-                            },
-                            "duration": "PT6H55M",
-                            "id": "26",
+                            "duration": "PT1H15M",
+                            "id": "2",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
                         {
                             "departure": {
-                                "iataCode": "LIS",
-                                "terminal": "1",
-                                "at": "2025-02-02T11:45:00"
+                                "iataCode": "YUL",
+                                "at": "2025-02-02T20:20:00"
                             },
                             "arrival": {
                                 "iataCode": "MAD",
-                                "terminal": "2",
-                                "at": "2025-02-02T14:05:00"
+                                "terminal": "1",
+                                "at": "2025-02-03T09:35:00"
                             },
-                            "carrierCode": "TP",
-                            "number": "1014",
+                            "carrierCode": "AC",
+                            "number": "834",
                             "aircraft": {
-                                "code": "32Q"
+                                "code": "333"
                             },
                             "operating": {
-                                "carrierCode": "TP"
+                                "carrierCode": "AC"
                             },
-                            "duration": "PT1H20M",
-                            "id": "27",
+                            "duration": "PT7H15M",
+                            "id": "3",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -569,8 +560,8 @@
             ],
             "price": {
                 "currency": "USD",
-                "total": "1015.60",
-                "base": "692.00",
+                "total": "1026.00",
+                "base": "560.00",
                 "fees": [
                     {
                         "amount": "0.00",
@@ -581,16 +572,16 @@
                         "type": "TICKETING"
                     }
                 ],
-                "grandTotal": "1015.60"
+                "grandTotal": "1026.00"
             },
             "pricingOptions": {
                 "fareType": [
                     "PUBLISHED"
                 ],
-                "includedCheckedBagsOnly": true
+                "includedCheckedBagsOnly": false
             },
             "validatingAirlineCodes": [
-                "TP"
+                "AC"
             ],
             "travelerPricings": [
                 {
@@ -599,19 +590,19 @@
                     "travelerType": "ADULT",
                     "price": {
                         "currency": "USD",
-                        "total": "507.80",
-                        "base": "346.00"
+                        "total": "513.00",
+                        "base": "280.00"
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "25",
+                            "segmentId": "1",
                             "cabin": "ECONOMY",
-                            "fareBasis": "PI4QUEY5",
-                            "brandedFare": "AN",
-                            "brandedFareLabel": "BLUE",
-                            "class": "P",
+                            "fareBasis": "WL820LGT",
+                            "brandedFare": "BASIC",
+                            "brandedFareLabel": "BASIC",
+                            "class": "W",
                             "includedCheckedBags": {
-                                "quantity": 1
+                                "quantity": 0
                             },
                             "amenities": [
                                 {
@@ -631,41 +622,17 @@
                                     }
                                 },
                                 {
-                                    "description": "EXTRA LEGROOM",
+                                    "description": "COMPLIMENTARY MEAL",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "BASIC SEAT",
                                     "isChargeable": true,
-                                    "amenityType": "PRE_RESERVED_SEAT",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "ADVANCE SEAT SELECTION",
-                                    "isChargeable": false,
-                                    "amenityType": "PRE_RESERVED_SEAT",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "SNACK",
-                                    "isChargeable": false,
-                                    "amenityType": "MEAL",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "ALCOHOLIC DRINK",
-                                    "isChargeable": true,
-                                    "amenityType": "MEAL",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "NON ALCOHOLIC DRINK",
-                                    "isChargeable": false,
-                                    "amenityType": "MEAL",
+                                    "amenityType": "BRANDED_FARES",
                                     "amenityProvider": {
                                         "name": "BrandedFare"
                                     }
@@ -673,18 +640,18 @@
                             ]
                         },
                         {
-                            "segmentId": "26",
+                            "segmentId": "2",
                             "cabin": "ECONOMY",
-                            "fareBasis": "LL0BSI05",
+                            "fareBasis": "WL820LGT",
                             "brandedFare": "BASIC",
                             "brandedFareLabel": "BASIC",
-                            "class": "L",
+                            "class": "W",
                             "includedCheckedBags": {
-                                "quantity": 1
+                                "quantity": 0
                             },
                             "amenities": [
                                 {
-                                    "description": "SECOND BAG UP TO 23KG AND158CM",
+                                    "description": "CHECKED BAG FIRST",
                                     "isChargeable": true,
                                     "amenityType": "BAGGAGE",
                                     "amenityProvider": {
@@ -692,25 +659,25 @@
                                     }
                                 },
                                 {
-                                    "description": "EXTRA LEG ROOM OR FRONT SEAT",
+                                    "description": "CHECKED BAG SECOND",
                                     "isChargeable": true,
-                                    "amenityType": "PRE_RESERVED_SEAT",
+                                    "amenityType": "BAGGAGE",
                                     "amenityProvider": {
                                         "name": "BrandedFare"
                                     }
                                 },
                                 {
-                                    "description": "SEAT RESERVATION",
-                                    "isChargeable": true,
-                                    "amenityType": "PRE_RESERVED_SEAT",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "MEAL 1",
+                                    "description": "COMPLIMENTARY MEAL",
                                     "isChargeable": false,
                                     "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "BASIC SEAT",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
                                     "amenityProvider": {
                                         "name": "BrandedFare"
                                     }
@@ -718,18 +685,18 @@
                             ]
                         },
                         {
-                            "segmentId": "27",
+                            "segmentId": "3",
                             "cabin": "ECONOMY",
-                            "fareBasis": "LL0BSI05",
+                            "fareBasis": "WL820LGT",
                             "brandedFare": "BASIC",
                             "brandedFareLabel": "BASIC",
-                            "class": "L",
+                            "class": "W",
                             "includedCheckedBags": {
-                                "quantity": 1
+                                "quantity": 0
                             },
                             "amenities": [
                                 {
-                                    "description": "SECOND BAG UP TO 23KG AND158CM",
+                                    "description": "CHECKED BAG FIRST",
                                     "isChargeable": true,
                                     "amenityType": "BAGGAGE",
                                     "amenityProvider": {
@@ -737,25 +704,25 @@
                                     }
                                 },
                                 {
-                                    "description": "EXTRA LEG ROOM OR FRONT SEAT",
+                                    "description": "CHECKED BAG SECOND",
                                     "isChargeable": true,
-                                    "amenityType": "PRE_RESERVED_SEAT",
+                                    "amenityType": "BAGGAGE",
                                     "amenityProvider": {
                                         "name": "BrandedFare"
                                     }
                                 },
                                 {
-                                    "description": "SEAT RESERVATION",
-                                    "isChargeable": true,
-                                    "amenityType": "PRE_RESERVED_SEAT",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "MEAL 1",
+                                    "description": "COMPLIMENTARY MEAL",
                                     "isChargeable": false,
                                     "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "BASIC SEAT",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
                                     "amenityProvider": {
                                         "name": "BrandedFare"
                                     }
@@ -770,19 +737,19 @@
                     "travelerType": "ADULT",
                     "price": {
                         "currency": "USD",
-                        "total": "507.80",
-                        "base": "346.00"
+                        "total": "513.00",
+                        "base": "280.00"
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "25",
+                            "segmentId": "1",
                             "cabin": "ECONOMY",
-                            "fareBasis": "PI4QUEY5",
-                            "brandedFare": "AN",
-                            "brandedFareLabel": "BLUE",
-                            "class": "P",
+                            "fareBasis": "WL820LGT",
+                            "brandedFare": "BASIC",
+                            "brandedFareLabel": "BASIC",
+                            "class": "W",
                             "includedCheckedBags": {
-                                "quantity": 1
+                                "quantity": 0
                             },
                             "amenities": [
                                 {
@@ -802,41 +769,17 @@
                                     }
                                 },
                                 {
-                                    "description": "EXTRA LEGROOM",
+                                    "description": "COMPLIMENTARY MEAL",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "BASIC SEAT",
                                     "isChargeable": true,
-                                    "amenityType": "PRE_RESERVED_SEAT",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "ADVANCE SEAT SELECTION",
-                                    "isChargeable": false,
-                                    "amenityType": "PRE_RESERVED_SEAT",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "SNACK",
-                                    "isChargeable": false,
-                                    "amenityType": "MEAL",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "ALCOHOLIC DRINK",
-                                    "isChargeable": true,
-                                    "amenityType": "MEAL",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "NON ALCOHOLIC DRINK",
-                                    "isChargeable": false,
-                                    "amenityType": "MEAL",
+                                    "amenityType": "BRANDED_FARES",
                                     "amenityProvider": {
                                         "name": "BrandedFare"
                                     }
@@ -844,18 +787,18 @@
                             ]
                         },
                         {
-                            "segmentId": "26",
+                            "segmentId": "2",
                             "cabin": "ECONOMY",
-                            "fareBasis": "LL0BSI05",
+                            "fareBasis": "WL820LGT",
                             "brandedFare": "BASIC",
                             "brandedFareLabel": "BASIC",
-                            "class": "L",
+                            "class": "W",
                             "includedCheckedBags": {
-                                "quantity": 1
+                                "quantity": 0
                             },
                             "amenities": [
                                 {
-                                    "description": "SECOND BAG UP TO 23KG AND158CM",
+                                    "description": "CHECKED BAG FIRST",
                                     "isChargeable": true,
                                     "amenityType": "BAGGAGE",
                                     "amenityProvider": {
@@ -863,25 +806,25 @@
                                     }
                                 },
                                 {
-                                    "description": "EXTRA LEG ROOM OR FRONT SEAT",
+                                    "description": "CHECKED BAG SECOND",
                                     "isChargeable": true,
-                                    "amenityType": "PRE_RESERVED_SEAT",
+                                    "amenityType": "BAGGAGE",
                                     "amenityProvider": {
                                         "name": "BrandedFare"
                                     }
                                 },
                                 {
-                                    "description": "SEAT RESERVATION",
-                                    "isChargeable": true,
-                                    "amenityType": "PRE_RESERVED_SEAT",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "MEAL 1",
+                                    "description": "COMPLIMENTARY MEAL",
                                     "isChargeable": false,
                                     "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "BASIC SEAT",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
                                     "amenityProvider": {
                                         "name": "BrandedFare"
                                     }
@@ -889,18 +832,18 @@
                             ]
                         },
                         {
-                            "segmentId": "27",
+                            "segmentId": "3",
                             "cabin": "ECONOMY",
-                            "fareBasis": "LL0BSI05",
+                            "fareBasis": "WL820LGT",
                             "brandedFare": "BASIC",
                             "brandedFareLabel": "BASIC",
-                            "class": "L",
+                            "class": "W",
                             "includedCheckedBags": {
-                                "quantity": 1
+                                "quantity": 0
                             },
                             "amenities": [
                                 {
-                                    "description": "SECOND BAG UP TO 23KG AND158CM",
+                                    "description": "CHECKED BAG FIRST",
                                     "isChargeable": true,
                                     "amenityType": "BAGGAGE",
                                     "amenityProvider": {
@@ -908,25 +851,25 @@
                                     }
                                 },
                                 {
-                                    "description": "EXTRA LEG ROOM OR FRONT SEAT",
+                                    "description": "CHECKED BAG SECOND",
                                     "isChargeable": true,
-                                    "amenityType": "PRE_RESERVED_SEAT",
+                                    "amenityType": "BAGGAGE",
                                     "amenityProvider": {
                                         "name": "BrandedFare"
                                     }
                                 },
                                 {
-                                    "description": "SEAT RESERVATION",
-                                    "isChargeable": true,
-                                    "amenityType": "PRE_RESERVED_SEAT",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "MEAL 1",
+                                    "description": "COMPLIMENTARY MEAL",
                                     "isChargeable": false,
                                     "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "BASIC SEAT",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
                                     "amenityProvider": {
                                         "name": "BrandedFare"
                                     }
